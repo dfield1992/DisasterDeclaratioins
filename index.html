@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title> Federal Disaster Declarations</title>
+        <center><H2> Total Number of Federal Disaster Declarations in the 12 Midwestern United States.</H2></center> 
+        <b><center><H2> Disasters are Categorized per 10 years starting in 1950's. </H2></center></b>
+        <center><H3>To Sequence through time periods click the "Skip" button located in the bottom right.</H3></center>
+        <center><p>*Click on any one of the dots in the tweleve states to see the number of disaster declarations in that time period. </p></center>
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href= "lib/leaflet.css">       
+
+	</head>
+    
+	<body>
+        <div id="map" style="width: 100%; height: 800px;"></div>
+        <div id ="panel"></div>
+        <script src ="lib/leaflet-src.js"> </script>
+        <script scr = "css/style.css"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src = "js/geojson.js"></script>
+        
+	</body>
+</html>
+        <style>
+
+        #forward {
+        float: right;
+        }
+
+        #reverse {
+        float: left;
+        }
+    
+        #map {
+        height: 400px;
+        width: 1000%;
+        display: inline-block;
+        }
+
+    .sequence-control-container {
+        width: 350px;
+        height: 30px;
+        background-color: rgba(255,255,255,0.8);
+        padding: 10px;
+        line-height: 45px;
+        text-align: center;
+        border: solid black 2px;
+    }
+
+    .range-slider {
+        width: 200px;
+    }
+}
+        </style>

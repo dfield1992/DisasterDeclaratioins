@@ -1,0 +1,13 @@
+﻿FID,State,1950_1960,1960_1970,1970_1980,1980_1990,1990_2000,2000_2010,2010_2020,Total_Dec,Num_Counties,latitude,longitude,name,source
+0,Illinois,1,6,8,11,11,19,4,60,102,40.1139374,-89.1587677,Illinois,Bing Maps
+1,Indiana,2,4,5,4,11,19,4,49,92,39.9198036,-86.2817993,Indiana,Bing Maps
+2,Iowa,3,7,7,5,11,15,19,67,99,42.0746994,-93.4999695,Iowa,Bing Maps
+3,Kansas,3,4,6,4,7,24,26,74,105,38.484726,-98.3801727,Kansas,Bing Maps
+4,Michigan,3,1,12,3,8,6,5,38,83,43.24004,-84.582095,Michigan,Bing Maps
+5,Minnesota,1,7,10,2,16,16,11,63,87,46.3493576,-94.1983719,Minnesota,Bing Maps
+6,Missouri,2,4,11,5,10,25,13,70,114,38.3679657,-92.4778824,Missouri,Bing Maps
+7,Nebraska,1,6,8,3,8,24,16,66,93,41.5272713,-99.8111038,Nebraska,Bing Maps
+8,North Dakota,1,5,11,2,10,19,11,59,53,47.4462967,-100.469429,North Dakota,Bing Maps
+9,Ohio,2,5,11,6,9,17,7,57,88,40.4130516,-82.7112198,Ohio,Bing Maps
+10,South Dakota,2,3,3,2,14,28,15,67,66,44.4361496,-100.2305069,South Dakota,Bing Maps
+11,Wisconsin,0,3,10,6,11,11,8,49,72,44.6417847,-89.7367401,Wisconsin,Bing Maps

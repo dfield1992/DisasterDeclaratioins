@@ -1,0 +1,580 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "State": "Illinois",
+        "1950_1960": 1.0,
+        "1960_1970": 6,
+        "1970_1980": 8,
+        "1980_1990": 11,
+        "1990_2000": 11,
+        "2000_2010": 19,
+        "2010_2020": 4,
+        "Total_Dec": 60,
+        "Num_Counties": 102,
+        "name": "Illinois",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1587677,
+          40.1139374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "State": "Indiana",
+        "1950_1960": 2.0,
+        "1960_1970": 4,
+        "1970_1980": 5,
+        "1980_1990": 4,
+        "1990_2000": 11,
+        "2000_2010": 19,
+        "2010_2020": 4,
+        "Total_Dec": 49,
+        "Num_Counties": 92,
+        "name": "Indiana",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2817993,
+          39.9198036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "State": "Iowa",
+        "1950_1960": 3,
+        "1960_1970": 7,
+        "1970_1980": 7,
+        "1980_1990": 5,
+        "1990_2000": 11,
+        "2000_2010": 15,
+        "2010_2020": 19,
+        "Total_Dec": 67,
+        "Num_Counties": 99,
+        "name": "Iowa",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4999695,
+          42.0746994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "State": "Kansas",
+        "1950_1960": 3,
+        "1960_1970": 4,
+        "1970_1980": 6,
+        "1980_1990": 4,
+        "1990_2000": 7,
+        "2000_2010": 24,
+        "2010_2020": 26,
+        "Total_Dec": 74,
+        "Num_Counties": 105,
+        "name": "Kansas",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3801727,
+          38.484726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "State": "Minnesota",
+        "1950_1960": 1,
+        "1960_1970": 7,
+        "1970_1980": 10,
+        "1980_1990": 2,
+        "1990_2000": 16,
+        "2000_2010": 16,
+        "2010_2020": 11,
+        "Total_Dec": 63,
+        "Num_Counties": 87,
+        "name": "Minnesota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1983719,
+          46.3493576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "State": "Missouri",
+        "1950_1960": 2,
+        "1960_1970": 4,
+        "1970_1980": 11,
+        "1980_1990": 5,
+        "1990_2000": 10,
+        "2000_2010": 25,
+        "2010_2020": 13,
+        "Total_Dec": 70,
+        "Num_Counties": 114,
+        "name": "Missouri",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4778824,
+          38.3679657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "State": "Nebraska",
+        "1950_1960": 1,
+        "1960_1970": 6,
+        "1970_1980": 8,
+        "1980_1990": 3,
+        "1990_2000": 8,
+        "2000_2010": 24,
+        "2010_2020": 16,
+        "Total_Dec": 66,
+        "Num_Counties": 93,
+        "name": "Nebraska",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.8111038,
+          41.5272713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "State": "North Dakota",
+        "1950_1960": 1,
+        "1960_1970": 5,
+        "1970_1980": 11,
+        "1980_1990": 2,
+        "1990_2000": 10,
+        "2000_2010": 19,
+        "2010_2020": 11,
+        "Total_Dec": 59,
+        "Num_Counties": 53,
+        "name": "North Dakota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.469429,
+          47.4462967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "State": "Ohio",
+        "1950_1960": 2,
+        "1960_1970": 5,
+        "1970_1980": 11,
+        "1980_1990": 6,
+        "1990_2000": 9,
+        "2000_2010": 17,
+        "2010_2020": 7,
+        "Total_Dec": 57,
+        "Num_Counties": 88,
+        "name": "Ohio",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7112198,
+          40.4130516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "State": "South Dakota",
+        "1950_1960": 2,
+        "1960_1970": 3,
+        "1970_1980": 3,
+        "1980_1990": 2,
+        "1990_2000": 14,
+        "2000_2010": 28,
+        "2010_2020": 15,
+        "Total_Dec": 67,
+        "Num_Counties": 66,
+        "name": "South Dakota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2305069,
+          44.4361496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "State": "Wisconsin",
+        "1950_1960": 0,
+        "1960_1970": 3,
+        "1970_1980": 10,
+        "1980_1990": 6,
+        "1990_2000": 11,
+        "2000_2010": 11,
+        "2010_2020": 8,
+        "Total_Dec": 49,
+        "Num_Counties": 72,
+        "name": "Wisconsin",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7367401,
+          44.6417847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "State": "Illinois",
+        "1950_1960": 1,
+        "1960_1970": 6,
+        "1970_1980": 8,
+        "1980_1990": 11,
+        "1990_2000": 11,
+        "2000_2010": 19,
+        "2010_2020": 4,
+        "Total_Dec": 60,
+        "Num_Counties": 102,
+        "name": "Illinois",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1587677,
+          40.1139374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "State": "Indiana",
+        "1950_1960": 2,
+        "1960_1970": 4,
+        "1970_1980": 5,
+        "1980_1990": 4,
+        "1990_2000": 11,
+        "2000_2010": 19,
+        "2010_2020": 4,
+        "Total_Dec": 49,
+        "Num_Counties": 92,
+        "name": "Indiana",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2817993,
+          39.9198036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 2,
+        "State": "Iowa",
+        "1950_1960": 3,
+        "1960_1970": 7,
+        "1970_1980": 7,
+        "1980_1990": 5,
+        "1990_2000": 11,
+        "2000_2010": 15,
+        "2010_2020": 19,
+        "Total_Dec": 67,
+        "Num_Counties": 99,
+        "name": "Iowa",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4999695,
+          42.0746994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "State": "Kansas",
+        "1950_1960": 3,
+        "1960_1970": 4,
+        "1970_1980": 6,
+        "1980_1990": 4,
+        "1990_2000": 7,
+        "2000_2010": 24,
+        "2010_2020": 26,
+        "Total_Dec": 74,
+        "Num_Counties": 105,
+        "name": "Kansas",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3801727,
+          38.484726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 4,
+        "State": "Michigan",
+        "1950_1960": 3,
+        "1960_1970": 1,
+        "1970_1980": 12,
+        "1980_1990": 3,
+        "1990_2000": 8,
+        "2000_2010": 6,
+        "2010_2020": 5,
+        "Total_Dec": 38,
+        "Num_Counties": 83,
+        "name": "Michigan",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.582095,
+          43.24004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 5,
+        "State": "Minnesota",
+        "1950_1960": 1,
+        "1960_1970": 7,
+        "1970_1980": 10,
+        "1980_1990": 2,
+        "1990_2000": 16,
+        "2000_2010": 16,
+        "2010_2020": 11,
+        "Total_Dec": 63,
+        "Num_Counties": 87,
+        "name": "Minnesota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1983719,
+          46.3493576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 6,
+        "State": "Missouri",
+        "1950_1960": 2,
+        "1960_1970": 4,
+        "1970_1980": 11,
+        "1980_1990": 5,
+        "1990_2000": 10,
+        "2000_2010": 25,
+        "2010_2020": 13,
+        "Total_Dec": 70,
+        "Num_Counties": 114,
+        "name": "Missouri",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4778824,
+          38.3679657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 7,
+        "State": "Nebraska",
+        "1950_1960": 1,
+        "1960_1970": 6,
+        "1970_1980": 8,
+        "1980_1990": 3,
+        "1990_2000": 8,
+        "2000_2010": 24,
+        "2010_2020": 16,
+        "Total_Dec": 66,
+        "Num_Counties": 93,
+        "name": "Nebraska",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.8111038,
+          41.5272713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 8,
+        "State": "North Dakota",
+        "1950_1960": 1,
+        "1960_1970": 5,
+        "1970_1980": 11,
+        "1980_1990": 2,
+        "1990_2000": 10,
+        "2000_2010": 19,
+        "2010_2020": 11,
+        "Total_Dec": 59,
+        "Num_Counties": 53,
+        "name": "North Dakota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.469429,
+          47.4462967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 9,
+        "State": "Ohio",
+        "1950_1960": 2,
+        "1960_1970": 5,
+        "1970_1980": 11,
+        "1980_1990": 6,
+        "1990_2000": 9,
+        "2000_2010": 17,
+        "2010_2020": 7,
+        "Total_Dec": 57,
+        "Num_Counties": 88,
+        "name": "Ohio",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7112198,
+          40.4130516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "State": "South Dakota",
+        "1950_1960": 2,
+        "1960_1970": 3,
+        "1970_1980": 3,
+        "1980_1990": 2,
+        "1990_2000": 14,
+        "2000_2010": 28,
+        "2010_2020": 15,
+        "Total_Dec": 67,
+        "Num_Counties": 66,
+        "name": "South Dakota",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2305069,
+          44.4361496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 11,
+        "State": "Wisconsin",
+        "1950_1960": 0,
+        "1960_1970": 3,
+        "1970_1980": 10,
+        "1980_1990": 6,
+        "1990_2000": 11,
+        "2000_2010": 11,
+        "2010_2020": 8,
+        "Total_Dec": 49,
+        "Num_Counties": 72,
+        "name": "Wisconsin",
+        "source": "Bing Maps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7367401,
+          44.6417847
+        ]
+      }
+    }
+  ]
+}
