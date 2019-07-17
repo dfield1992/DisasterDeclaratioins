@@ -1,20 +1,31 @@
 //function to instantiate the Leaflet map
 function createMap(){
-    //create the map
+
+    var mbAttr = 'Map created by: Dwight E. Field ';
+    
+    var mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGZpZWxkMjMiLCJhIjoiY2p4NThuaGYxMDB3bDQ4cXd0eWJiOGJoeSJ9.T94xCeDwJ268CmzfMPXdmw';
+
+    var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+    dark  = L.tileLayer(mbUrl, {id: 'mapbox.dark',   attribution: mbAttr}),
+    outdoors = L.tileLayer(mbUrl, {id: 'mapbox.outdoors',   attribution: mbAttr});
+    
+    //create the map*/
     var map = L.map('map', {
         center: [40.00, -91.20],//Coordinated to center the map for Midwestern States
-        zoom: 5    
+        zoom: 5,
+        layers:outdoors
     });
     
-//add tile layer...The Title I used was mapbox.outdoors. 
-            var outdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            maxZoom: 18,
-            id: 'mapbox.outdoors',
-            accessToken: 'pk.eyJ1IjoiZGZpZWxkMjMiLCJhIjoiY2p4NThuaGYxMDB3bDQ4cXd0eWJiOGJoeSJ9.T94xCeDwJ268CmzfMPXdmw'
-            }).addTo(map);
-    
+    	var baseLayers = {
+		"Outdoors": outdoors,
+        "Grayscale": grayscale,
+		"Darkscale": dark,
+                
+        };
     //call getData function
     getData(map);
+    
+    L.control.layers(baseLayers).addTo(map);
 }
 
 //Step 2: Import GeoJSON data
@@ -30,7 +41,7 @@ function getData(map){
             //call funtion to create slider
             createSequenceControls(map, attributes);
             //call function to create legend
-            createLegend(map, attributes); 
+            //createLegend(map, attributes); 
         }
     });
 }
@@ -44,13 +55,10 @@ function processData(data){
 
     //push each attribute name into attributes array
     for (var attribute in properties){
-            if (attribute.indexOf("0")>=0){ //Grabs all of the Year Attributes 
-            attributes.push(attribute);
+        if (attribute.indexOf("0")>=0){ //Grabs all of the Year Attributes 
+        attributes.push(attribute);
         };
     };
-
-    //check result
-    console.log(attributes);
 
     return attributes;
 };
@@ -60,7 +68,7 @@ function createPropSymbols(data, map, attributes){
     //create a Leaflet GeoJSON layer and add it to the map
     L.geoJson(data, {
         pointToLayer: function(feature, latlng){
-            return pointToLayer(feature, latlng, attributes);
+        return pointToLayer(feature, latlng, attributes);
         }
     }).addTo(map);
 };
@@ -99,7 +107,7 @@ function pointToLayer(feature, latlng, attributes){
 };
 
 function calcPropRadius(attributeValue){
-        var scaleFactor = 20;
+        var scaleFactor = 50;
         var area = attributeValue * scaleFactor;
         var radius = Math.sqrt(area/Math.PI)*2;
         return radius;        
@@ -114,27 +122,26 @@ function createSequenceControls(map, attributes){
         onAdd: function (map) {
             // create the control container div with a particular class name
             var container = L.DomUtil.create('div', 'sequence-control-container');
-            
+
             //create range input element (slider)
             $(container).append('<input class="range-slider" type="range">');
-            
+
             //add skip buttons
             $(container).append('<button class="skip" id="reverse" title="Reverse">Reverse</button>');
             $(container).append('<button class="skip" id="forward" title="Forward">Skip</button>');
-            
-            
+
+
             //kill any mouse event listeners on the map
             $(container).on('mousedown dblclick', function(e){
                 L.DomEvent.stopPropagation(e);
                 map.dragging.disable();
             });
-            
+
             return container;
         }
     });
 
 map.addControl(new SequenceControl());
-
 
 	//set slider attributes
 	$('.range-slider').attr({
